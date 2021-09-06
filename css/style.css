@@ -1,15 +1,77 @@
-* {
+/*SELETTORI DEFAULT*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    background-color: violet;
-    height: 150px;
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*=============================*/
+body {
+    padding: 10px 100px;
 }
 
-.container1 {
-    background-color: wheat;
-    height: 450px;
+
+header {
+    background-color: plum;
+    height: 50px;
+    margin-bottom: 10px;
 }
+
+footer {
+    background-color: darkviolet;
+    height: 25px;
+}
+
+.container-1 {
+    background-color: wheat;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.container-2{
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: lightblue;
+    height: 25px;  
+}
+
+.clearfix{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.column-sx {
+    background-color: lightblue;
+    height: 100px;
+    width: 20%;
+    float: left;
+    margin-right: 5px;
+}
+
+.column-central {
+    background-color: lightblue;
+    height: 100px;
+    width: calc(60% - 10px);
+    float: left;
+}
+
+.column-dx {
+    background-color: lightblue;
+    height: 100px;
+    width: 20%;
+    float: left;
+    margin-left: 5px;
+}
+
+
+
+
+
