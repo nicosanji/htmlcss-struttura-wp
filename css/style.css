@@ -1,4 +1,5 @@
 /*SELETTORI DEFAULT*/
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@
     display: table;
     clear: both;
 }
+
 /*=============================*/
 body {
     padding: 10px 100px;
@@ -33,7 +35,7 @@ footer {
 }
 
 .container-2{
-    background-color: blue;
+    background-color:royalblue;
     margin-bottom: 5px;
 }
 
@@ -42,34 +44,26 @@ nav {
     height: 50px;  
 }
 
-
-.column-sx {
+aside {
     background-color: lightblue;
-    height: 300px;
-    width: 20%;
+    height: 300px;  
     float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sx {
     margin-right: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.column-central {
-    background-color: lightblue;
-    height: 300px;
-    width: calc(60% - 10px);
-    float: left;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.column-dx {
-    background-color: lightblue;
-    height: 300px;
     width: 20%;
-    float: left;
+}
+
+.central {   
+    width: calc(60% - 10px);
+}
+
+.dx {
     margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 20%;
 }
 
 
