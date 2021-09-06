@@ -42,10 +42,6 @@ nav {
     height: 50px;  
 }
 
-.clearfix{
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
 
 .column-sx {
     background-color: lightblue;
@@ -53,6 +49,8 @@ nav {
     width: 20%;
     float: left;
     margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .column-central {
@@ -60,6 +58,8 @@ nav {
     height: 300px;
     width: calc(60% - 10px);
     float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .column-dx {
@@ -68,6 +68,8 @@ nav {
     width: 20%;
     float: left;
     margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 
